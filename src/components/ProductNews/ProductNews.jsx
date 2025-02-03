@@ -107,7 +107,7 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/samsung.png"
-                  width={71}
+                  width={70}
                   height={32}
                   alt="samsung"
                 ></Image>
@@ -120,9 +120,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/apple.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Apple"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -133,9 +134,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/google.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Google"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -146,9 +148,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/google.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Google"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -172,9 +175,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/apple.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Apple"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -198,9 +202,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/apple.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Apple"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -211,9 +216,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/google.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Google"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -224,9 +230,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/google.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Google"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">
@@ -250,9 +257,10 @@ const ProductNews = () => {
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image
                   src="/assets/brands/apple.png"
-                  width={71}
+                  width={32}
                   height={32}
                   alt="Apple"
+                  className="w-14 md:w-[70px] lg:w-8"
                 ></Image>
               </div>
               <div className="text-center border-t font-medium text-sm pt-[2px] text-[#817F80]">

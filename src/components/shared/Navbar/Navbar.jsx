@@ -230,7 +230,7 @@ const Navbar = () => {
             </span>
           </div>
         </div>
-
+        {/* nav center */}
         <div className="bg-white">
           <div className="flex justify-between items-center max-w-[1110px] mx-auto bg-white py-2">
             <div>
@@ -275,6 +275,7 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* nav bottom */}
         <div className="bg-[#F2F3F5] shadow-md shadow-neutral-300 z-50 relative">
           <div className="max-w-[1110px] mx-auto">
             <ul className="flex font-bold">
