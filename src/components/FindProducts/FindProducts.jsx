@@ -41,14 +41,26 @@ const FindProducts = () => {
                         height: 28,
                         borderRadius: 4,
                         boxShadow: "none",
+                        "&:hover": {
+                          boxShadow: "none",
+                        },
+                        "&.Mui-focusVisible": {
+                          boxShadow: "none",
+                        },
+                        "&::before": {
+                          boxShadow: "none",
+                        },
                       },
                       "& .MuiSlider-track": {
                         backgroundColor: "#3E3E3E",
                         border: "1px solid #3E3E3E",
+                        borderRadius: 5,
+                        height: 14,
                       },
                       "& .MuiSlider-rail": {
                         backgroundColor: "#CA0101",
                         height: 14,
+                        opacity: 1,
                       },
                     }}
                     getAriaLabel={() => "Price range"}
