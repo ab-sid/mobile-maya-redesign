@@ -38,7 +38,7 @@ const Slider = () => {
         <Swiper
           breakpoints={{
             320: {
-              slidesPerView: 2.5,
+              slidesPerView: 2.6,
             }, // Mobile
             640: {
               slidesPerView: 3,
