@@ -103,7 +103,7 @@ const FindProducts = () => {
             <div className="pt-3">
               {/* The list of options, collapsed on mobile */}
               <ul
-                className={`grid grid-cols-2 md:grid-cols-1 font-medium pl-1 md:pr-6 ${
+                className={`grid grid-cols-2 md:grid-cols-1 gap-x-1 font-medium pl-1 md:pr-6 ${
                   isOpen ? "block" : "hidden"
                 } lg:block`}
               >

@@ -242,7 +242,7 @@ const Navbar = () => {
       {menuOpen && (
         <button
           onClick={() => setMenuOpen(false)}
-          className="lg:hidden fixed text-3xl flex justify-center items-center top-3 right-[calc(24%+8px)] z-50 size-8 text-gray-500 bg-[#ffe3e3a9] rounded-md duration-300"
+          className="lg:hidden fixed text-3xl flex justify-center items-center top-3 left-[67%] z-50 size-8 text-gray-500 bg-[#ffe3e3a9] rounded-md transform transition-all duration-300 ease-in-out"
         >
           <IoClose className="w-5 h-5" />
         </button>
