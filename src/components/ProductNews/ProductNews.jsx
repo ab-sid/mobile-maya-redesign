@@ -6,8 +6,8 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const ProductNews = () => {
   return (
-    <section className="max-w-[1110px] mx-auto grid grid-cols-12 gap-3 mb-3 w-[97%] md:w-full">
-      <div className="col-span-12 md:col-span-9 border border-[#e9e9e9]">
+    <section className="max-w-[1110px] mx-auto grid grid-cols-12 gap-3 mb-3 w-[97%] lg:w-full">
+      <div className="col-span-12 lg:col-span-9 border border-[#e9e9e9]">
         {/* section header */}
         <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
           <h2 className="font-medium uppercase text-[#5A5759]">Product News</h2>
@@ -91,7 +91,7 @@ const ProductNews = () => {
           </Link>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-3 border border-[#e9e9e9]">
+      <div className="col-span-12 lg:col-span-3 border border-[#e9e9e9]">
         <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
           <h2 className="font-medium uppercase text-[#5A5759]">Brands</h2>
           <div className="flex gap-1 text-sm items-center text-[#344ff6]">
@@ -102,7 +102,7 @@ const ProductNews = () => {
           </div>
         </div>
         <div className="p-3">
-          <div className="bg-[#f2f3f5] grid grid-cols-3 gap-3">
+          <div className="bg-[#f2f3f5] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-3">
             <Link className="p-1.5 border bg-white rounded" href="#">
               <div className="lg:h-10 md:h-20 h-16 flex justify-center pb-2">
                 <Image

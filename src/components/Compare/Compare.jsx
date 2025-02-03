@@ -6,7 +6,7 @@ const Compare = () => {
   return (
     <section
       style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-      className="max-w-[1110px] mx-auto border border-[#e9e9e9] bg-[#F2F3F5] mb-7 w-[97%] md:w-full"
+      className="max-w-[1110px] mx-auto border border-[#e9e9e9] bg-[#F2F3F5] mb-7 w-[97%] lg:w-full"
     >
       {/* section header */}
       <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
@@ -20,7 +20,7 @@ const Compare = () => {
           </span>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-3 pt-4 p-3 bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-4 p-3 bg-white">
         <div
           style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
           className="border border-[#e9e9e9] px-1 pt-2 pb-3"

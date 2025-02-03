@@ -20,7 +20,7 @@ const LatestReview = () => {
   return (
     <section
       style={{ boxShadow: "0px px 2px 1px #eaeaea" }}
-      className="max-w-[1110px] mx-auto border border-[#e9e9e9] mb-3 w-[97%] md:w-full"
+      className="max-w-[1110px] mx-auto border border-[#e9e9e9] mb-3 w-[97%] lg:w-full"
     >
       {/* section header */}
       <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
@@ -41,10 +41,10 @@ const LatestReview = () => {
               slidesPerView: 1.5,
             }, // Mobile
             640: {
-              slidesPerView: 3,
+              slidesPerView: 2.8,
             }, // Tablet
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2.8,
             }, // Small Desktop
             1024: {
               slidesPerView: 4,

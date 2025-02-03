@@ -35,7 +35,7 @@ const Footer = () => {
 
       {/* footer center */}
       <div className="bg-neutral-400">
-        <div className="max-w-[1110px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-0 text-center md:text-start py-10 text-lg">
+        <div className="max-w-[1110px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-0 text-center md:text-start py-10 text-lg">
           <nav>
             <h2 className="font-medium text-white mb-4">Useful link</h2>
             <ul className="flex flex-col gap-1 text-neutral-900">

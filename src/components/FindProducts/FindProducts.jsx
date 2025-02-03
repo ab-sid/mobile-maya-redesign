@@ -25,7 +25,7 @@ const FindProducts = () => {
         className="py-3 px-4 lg:px-7 bg-white border border-[#e9e9e9] w-[97%] lg:w-full mx-auto"
       >
         <div className="grid grid-cols-12 gap-7">
-          <div className="lg:col-span-7 col-span-12">
+          <div className="md:col-span-7 col-span-12">
             <div>
               <h2 className="uppercase text-[#515ca9] text-3xl font-medium font-oswald text-center pb-6">
                 lets find a mobile
@@ -105,9 +105,9 @@ const FindProducts = () => {
             </div>
           </div>
           {/* By price */}
-          <div className="lg:col-span-5 col-span-12 relative">
+          <div className="md:col-span-5 col-span-12 relative">
             {/* <span className="border-[0.5px] absolute -left-3 top-12 h-[74%]"></span> */}
-            <span className="hidden lg:block w-[1px] h-[69%] top-[60%] -translate-y-1/2 -left-2 bg-neutral-200 absolute"></span>
+            <span className="hidden md:block w-[1px] h-[69%] top-[60%] -translate-y-1/2 -left-2 bg-neutral-200 absolute"></span>
 
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-xl text-neutral-700 pb-3">
@@ -117,7 +117,7 @@ const FindProducts = () => {
               {/* Toggle Icon for mobile */}
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="lg:hidden text-neutral-700"
+                className="md:hidden text-neutral-700"
               >
                 {isOpen ? (
                   <FaAngleUp className="w-5 h-5" />
@@ -134,7 +134,7 @@ const FindProducts = () => {
               <ul
                 className={`grid grid-cols-2 md:grid-cols-1 gap-x-1 font-medium pl-1 md:pr-6 ${
                   isOpen ? "block" : "hidden"
-                } lg:block`}
+                } md:grid`}
               >
                 <li className="mb-1 hover:underline">
                   <Link href="#" className="text-[#344ff6]">
@@ -175,7 +175,7 @@ const FindProducts = () => {
       {/* second column */}
       <div
         style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-        className="grid grid-cols-1 md:grid-cols-2 md:gap-12 py-3 px-4 md:px-7 bg-white border border-[#e9e9e9] w-[97%] md:w-full mx-auto"
+        className="grid grid-cols-1 md:grid-cols-2 md:gap-12 py-3 px-4 md:px-7 bg-white border border-[#e9e9e9] w-[97%] lg:w-full mx-auto"
       >
         {/* by brand */}
         <div className="relative md:pl-3">
@@ -278,7 +278,7 @@ const FindProducts = () => {
             </h3>
             <button
               onClick={() => setIsOpen3(!isOpen3)}
-              className="lg:hidden text-neutral-700"
+              className="md:hidden text-neutral-700"
             >
               {isOpen3 ? (
                 <FaAngleUp className="w-5 h-5" />
@@ -296,7 +296,7 @@ const FindProducts = () => {
               className={`grid grid-cols-1 gap-1 overflow-hidden transition-all duration-300 ease-in-out
             ${
               isOpen3 ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
-            } lg:max-h-none lg:opacity-100 lg:block`}
+            } md:max-h-none md:opacity-100 md:grid`}
             >
               <li className="hover:underline">
                 <Link className="text-[#344ff6]" href="#">
