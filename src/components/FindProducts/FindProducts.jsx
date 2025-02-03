@@ -25,7 +25,7 @@ const FindProducts = () => {
         className="py-3 px-4 lg:px-7 bg-white border border-[#e9e9e9] w-[97%] lg:w-full mx-auto"
       >
         <div className="grid grid-cols-12 gap-7">
-          <div className="md:col-span-7 col-span-12">
+          <div className="lg:col-span-7 md:col-span-8 col-span-12">
             <div>
               <h2 className="uppercase text-[#515ca9] text-3xl font-medium font-oswald text-center pb-6">
                 lets find a mobile
@@ -105,7 +105,7 @@ const FindProducts = () => {
             </div>
           </div>
           {/* By price */}
-          <div className="md:col-span-5 col-span-12 relative">
+          <div className="lg:col-span-5 md:col-span-4 col-span-12 relative">
             {/* <span className="border-[0.5px] absolute -left-3 top-12 h-[74%]"></span> */}
             <span className="hidden md:block w-[1px] h-[69%] top-[60%] -translate-y-1/2 -left-2 bg-neutral-200 absolute"></span>
 

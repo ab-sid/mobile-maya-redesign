@@ -157,42 +157,7 @@ const Navbar = () => {
                    group-hover:text-[#ffa500]"
               >
                 Mobile Collections
-                <span
-                  className="text-[#5a5759] text-2xl transition-transform duration-300 
-                    group-hover:text-[#ffa500] group-hover:rotate-90"
-                >
-                  <MdOutlineKeyboardArrowRight />
-                </span>
               </Link>
-              <ul
-                className="absolute left-0 mt-2 w-40 pl-2 py-2 bg-[#F2F3F5] shadow border-t-2 hidden 
-                    group-hover:block group-hover:dropdown-hover"
-              >
-                <li>
-                  <Link
-                    href="#"
-                    className="block pl-4 py-2 text-[#5a5759] hover:bg-gray-100 hover:text-[#ffa500]"
-                  >
-                    Mobile
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="block pl-4 py-2 text-[#5a5759] hover:bg-gray-100 hover:text-[#ffa500]"
-                  >
-                    Tablet
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="block pl-4 py-2 text-[#5a5759] hover:bg-gray-100 hover:text-[#ffa500]"
-                  >
-                    Laptop
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li className="pl-4 py-2">
               <Link href="#" className="text-[#5a5759] hover:text-[#ffa500]">

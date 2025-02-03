@@ -56,7 +56,7 @@ const Slider = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -90,7 +90,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -124,7 +124,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -158,7 +158,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -192,7 +192,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -226,7 +226,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -260,7 +260,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
@@ -294,7 +294,7 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="md:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
+            <div className="lg:w-[166.5px] border border-[#e9e9e9] bg-white group pro-card">
               <div className="absolute top-1 left-1 p-[1px] px-2 bg-teal-50 bg-opacity-50 rounded-full flex items-center gap-1 z-10">
                 <span>4.5</span>
                 <span className="text-teal-600 text-xs">
