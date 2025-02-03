@@ -38,7 +38,7 @@ const FindProducts = () => {
                     value={value}
                     onChange={handleChange}
                     // valueLabelDisplay="auto"
-                    valueLabelFormat={(value) => `$${value}`} // Display the value as a price
+                    // valueLabelFormat={(value) => `$${value}`} // Display the value as a price
                     min={15999} // Set the minimum value
                     max={28999} // Set the maximum value
                   />
