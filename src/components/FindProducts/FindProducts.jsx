@@ -22,7 +22,7 @@ const FindProducts = () => {
       {/* first column */}
       <div
         style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-        className="py-3 px-4 lg:px-7 bg-white border border-[#e9e9e9] w-[98%] lg:w-full mx-auto"
+        className="py-3 px-4 lg:px-7 bg-white border border-[#e9e9e9] w-[96%] lg:w-full mx-auto"
       >
         <div className="grid grid-cols-12 gap-7">
           <div className="lg:col-span-7 col-span-12">
@@ -103,7 +103,7 @@ const FindProducts = () => {
             <div className="pt-3">
               {/* The list of options, collapsed on mobile */}
               <ul
-                className={`font-medium pl-1 pr-6 ${
+                className={`grid grid-cols-2 md:grid-cols-1 gap-x-3 font-medium pl-1 md:pr-6 ${
                   isOpen ? "block" : "hidden"
                 } lg:block`}
               >
@@ -146,7 +146,7 @@ const FindProducts = () => {
       {/* second column */}
       <div
         style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-        className="grid grid-cols-1 md:grid-cols-2 md:gap-12 py-3 px-4 md:px-7 bg-white border border-[#e9e9e9] w-[98%] md:w-full mx-auto"
+        className="grid grid-cols-1 md:grid-cols-2 md:gap-12 py-3 px-4 md:px-7 bg-white border border-[#e9e9e9] w-[96%] md:w-full mx-auto"
       >
         {/* by brand */}
         <div className="relative md:pl-3">

@@ -20,7 +20,7 @@ const LatestReview = () => {
   return (
     <section
       style={{ boxShadow: "0px px 2px 1px #eaeaea" }}
-      className="max-w-[1110px] mx-auto border border-[#e9e9e9] mb-3 w-[98%] md:w-full"
+      className="max-w-[1110px] mx-auto border border-[#e9e9e9] mb-3 w-[96%] md:w-full"
     >
       {/* section header */}
       <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
