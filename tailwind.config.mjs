@@ -11,7 +11,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
