@@ -34,6 +34,23 @@ const FindProducts = () => {
               <div>
                 <Box>
                   <Slider
+                    sx={{
+                      "& .MuiSlider-thumb": {
+                        backgroundColor: "#CA0101",
+                        width: 14,
+                        height: 28,
+                        borderRadius: 4,
+                        boxShadow: "none",
+                      },
+                      "& .MuiSlider-track": {
+                        backgroundColor: "#3E3E3E",
+                        border: "1px solid #3E3E3E",
+                      },
+                      "& .MuiSlider-rail": {
+                        backgroundColor: "#CA0101",
+                        height: 14,
+                      },
+                    }}
                     getAriaLabel={() => "Price range"}
                     value={value}
                     onChange={handleChange}
