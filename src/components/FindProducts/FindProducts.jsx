@@ -39,7 +39,7 @@ const FindProducts = () => {
                         backgroundColor: "#CA0101",
                         width: 14,
                         height: 28,
-                        borderRadius: 4,
+                        borderRadius: "4px",
                         boxShadow: "none",
                         "&:hover": {
                           boxShadow: "none",
