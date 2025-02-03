@@ -6,7 +6,7 @@ const Compare = () => {
   return (
     <section
       style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-      className="max-w-[1110px] mx-auto border border-[#e9e9e9] bg-[#F2F3F5] mb-7 w-[96%] md:w-full"
+      className="max-w-[1110px] mx-auto border border-[#e9e9e9] bg-[#F2F3F5] mb-7 w-[97%] md:w-full"
     >
       {/* section header */}
       <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">

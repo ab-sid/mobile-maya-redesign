@@ -18,7 +18,7 @@ const Slider = () => {
   return (
     <section
       style={{ boxShadow: "0px 0px 2px 1px #eaeaea" }}
-      className="max-w-[1110px] mx-auto bg-white mb-3 overflow-visible w-[96%] md:w-full"
+      className="max-w-[1110px] mx-auto bg-white mb-3 overflow-visible w-[97%] md:w-full"
     >
       {/* section header */}
       <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
@@ -38,7 +38,7 @@ const Slider = () => {
         <Swiper
           breakpoints={{
             320: {
-              slidesPerView: 2,
+              slidesPerView: 2.5,
             }, // Mobile
             640: {
               slidesPerView: 3,

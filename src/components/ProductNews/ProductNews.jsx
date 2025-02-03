@@ -6,7 +6,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const ProductNews = () => {
   return (
-    <section className="max-w-[1110px] mx-auto grid grid-cols-12 gap-3 mb-3 w-[96%] md:w-full">
+    <section className="max-w-[1110px] mx-auto grid grid-cols-12 gap-3 mb-3 w-[97%] md:w-full">
       <div className="col-span-12 md:col-span-9 border border-[#e9e9e9]">
         {/* section header */}
         <div className="p-2 bg-white flex justify-between items-center font-oswald text-lg border-b-2">
